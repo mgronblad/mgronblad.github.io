@@ -304,6 +304,13 @@ While the Assault Doctrine is active for your army, each time a model in this un
         };
       });
 
+      const stratImages = Array.from(document.getElementsByClassName("stratagem"));
+
+      stratImages.forEach(img => {
+        img.onclick = () => {
+          img.classList.toggle("hide");
+        };
+      });
     </script>
   </div>
 </div>
