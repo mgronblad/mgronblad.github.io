@@ -3,6 +3,11 @@
 <head>
   <meta name="viewport" content="width=670">
   <style>
+    button {
+      padding: 5px;
+      margin-top: 5px;
+    }
+
     body.battlescribe {
       margin: 0px;
       padding: 0px;
@@ -609,6 +614,13 @@
                 </td>
               </tr>
               <tr>
+                <td class="profile-name">Rites of Battle</td>
+                <td>While a friendly &lt;CHAPTER&gt; CORE unit is within 6" of this model, each time a model in that
+                  unit makes an attack, re-roll a hit roll of 1</td>
+                <td>
+                </td>
+              </tr>
+              <tr>
                 <td class="profile-name">Iron Halo</td>
                 <td>This model has a 4+ invulnerable save.</td>
                 <td>
@@ -618,13 +630,6 @@
                 <td class="profile-name">Relic Shield</td>
                 <td>Each time the bearer suffers a mortal wound, roll a D6; on a 4+, that mortal wound is ignored. Add 1
                   to armour saving throws made for the bearer.</td>
-                <td>
-                </td>
-              </tr>
-              <tr>
-                <td class="profile-name">Rites of Battle</td>
-                <td>While a friendly &lt;CHAPTER&gt; CORE unit is within 6" of this model, each time a model in that
-                  unit makes an attack, re-roll a hit roll of 1</td>
                 <td>
                 </td>
               </tr>
@@ -761,6 +766,12 @@
                 </td>
               </tr>
               <tr>
+                <td class="profile-name">Psychic Mastery</td>
+                <td>Add 1 to psychic tests taken for this WARLORD</td>
+
+                </td>
+              </tr>
+              <tr>
                 <td class="profile-name">Psychic Hood</td>
                 <td>Each time a Deny the Witch test is taken for this model, if the unit attempting to manifest the
                   psychic power is within 12" of this model, add 1 to that Deny the Witch test</td>
@@ -779,8 +790,8 @@
                 <td class="profile-name">The Armour of Russ</td>
                 <td>- The bearer has a Save characteristic of 2+ and a 4+ invulnerable save.<br />
                   - At the start of the Fight phase, you can select one enemy unit within Engagement Range of the
-                  bearer. That unit is not eligible to fight this phase until after all eligible units from your army
-                  have done so.</td>
+                  bearer. <span class="important">That unit is not eligible to fight this phase until after all eligible units from your army
+                  have done so.</span></td>
                 <td>
                 </td>
               </tr>
@@ -799,7 +810,7 @@
                 <td>18"</td>
                 <td>Blessing: Instincts Awoken has a Warp Charge value of 6. If manifested, select one friendly SPACE
                   WOLVES unit within 18" of this PSYKER. Until the start of your next Psychic phase, each time a model
-                  in that unit makes an attack, the Assault Doctrine is considered to be active for that attack instead
+                  in that unit makes an attack, <span class="important">the Assault Doctrine is considered to be active for that attack</span> instead
                   of the currently active doctrine. If the Assault Doctrine is already active for your army, then on an
                   unmodified wound roll of 6 improve the Armour Penetration characteristic of that attack by 1. This is
                   cumulative with the bonus from the Assault Doctrine.</td>
@@ -813,8 +824,8 @@
                 <td>Malediction: Murderous Hurricane has a warp charge value of 6. If manifested, select a one enemy
                   unit within 18" of this psyker. Until the start of your next Psychic phase:<br />
                   - If the unit is not wholly on or within a terrain feature, that unit cannot fire Overwatch.<br />
-                  - In the Fight phase, that unit is not eligible to fight until after all eligible SPACE WOLVES units
-                  from your army have done so.</td>
+                  - <span class="important">In the Fight phase, that unit is not eligible to fight until after all eligible SPACE WOLVES units
+                  from your army have done so.</span></td>
                 <td>
                 </td>
               </tr>
@@ -824,7 +835,7 @@
                 <td>6"</td>
                 <td>Blessing (Aura): Storm Caller has a warp charge value of 6. If manifested, until the start of your
                   next Psychic phase, while their unit is within 6" of this PSYKER, friendly SPACE WOLVES models receive
-                  the benefit of light cover.</td>
+                  the benefit of <span class="important">light cover</span>.</td>
                 <td>
                 </td>
               </tr>
@@ -1952,7 +1963,7 @@
                 <td>-2</td>
                 <td>1</td>
                 <td>Each time the bearer fights, it makes 1 additional attack with this weapon. Each time an attack is
-                  made with this weapon, you can re-roll the wound roll.</td>
+                  made with this weapon, you can <span class="important">re-roll the wound roll</span>.</td>
                 <td>
                 </td>
               </tr>
@@ -1971,103 +1982,7 @@
 
           </li>
         </ul>
-      </li>
-      <li class="category">
-        <h3>Fast Attack [3 PL, 45pts]</h3>
-        <ul>
-          <li class="rootselection">
-            <h4>3x Cyberwolves [1 PL, 15pts]</h4>
-            <p class="category-names">
-              <span class="bold">Categories:</span> <span class="caps">Fast Attack, Faction: Imperium, Faction: Adeptus
-                Astartes, Faction: Space Wolves, Beast, Cyberwolves</span>
-            </p>
-            <ul>
-              <li>
-                <h4>Cyberwolf [15pts]</h4>
-                <p>
-                  <span class="bold">Selections:</span> Teeth and claws
-                </p>
-                <p class="profile-names">
-                  <span class="bold">Abilities:</span> <span class="italic">Swift Hunters</span>, <span
-                    class="bold">Unit:</span> <span class="italic">Cyberwolf</span>, <span class="bold">Weapon:</span>
-                  <span class="italic">Teeth and claws</span>
-                </p>
-
-              </li>
-            </ul>
-            <br>
-            <table cellspacing="-1">
-              <tr>
-                <th>Abilities</th>
-                <th>Description</th>
-                <th>Ref</th>
-              </tr>
-              <tr>
-                <td class="profile-name">Swift Hunters</td>
-                <td>This unit is eligible to declare a charge with even if it Advanced this turn. In addition, each time
-                  this unit makes a pile-in move or consolidation move, models in this unit can move an additional 1".
-                </td>
-                <td>
-                </td>
-              </tr>
-            </table>
-            <table cellspacing="-1">
-              <tr>
-                <th>Unit</th>
-                <th>M</th>
-                <th>WS</th>
-                <th>BS</th>
-                <th>S</th>
-                <th>T</th>
-                <th>W</th>
-                <th>A</th>
-                <th>Ld</th>
-                <th>Save</th>
-                <th>Ref</th>
-              </tr>
-              <tr>
-                <td class="profile-name">Cyberwolf</td>
-                <td>10"</td>
-                <td>3+</td>
-                <td>-</td>
-                <td>4</td>
-                <td>4</td>
-                <td>2</td>
-                <td>3</td>
-                <td>6</td>
-                <td>4+</td>
-                <td>
-                </td>
-              </tr>
-            </table>
-            <table cellspacing="-1">
-              <tr>
-                <th>Weapon</th>
-                <th>Range</th>
-                <th>Type</th>
-                <th>S</th>
-                <th>AP</th>
-                <th>D</th>
-                <th>Abilities</th>
-                <th>Ref</th>
-              </tr>
-              <tr>
-                <td class="profile-name">Teeth and claws</td>
-                <td>Melee</td>
-                <td>Melee</td>
-                <td>User</td>
-                <td>-1</td>
-                <td>1</td>
-                <td>-</td>
-                <td>
-                </td>
-              </tr>
-            </table>
-
-          </li>
-        </ul>
-      </li>
-      <li class="category">
+      </li><li class="category">
         <h3>Heavy Support [7 PL, 155pts]</h3>
         <ul>
           <li class="rootselection">
@@ -2240,6 +2155,102 @@
           </li>
         </ul>
       </li>
+      <li class="category">
+        <h3>Fast Attack [3 PL, 45pts]</h3>
+        <ul>
+          <li class="rootselection">
+            <h4>3x Cyberwolves [1 PL, 15pts]</h4>
+            <p class="category-names">
+              <span class="bold">Categories:</span> <span class="caps">Fast Attack, Faction: Imperium, Faction: Adeptus
+                Astartes, Faction: Space Wolves, Beast, Cyberwolves</span>
+            </p>
+            <ul>
+              <li>
+                <h4>Cyberwolf [15pts]</h4>
+                <p>
+                  <span class="bold">Selections:</span> Teeth and claws
+                </p>
+                <p class="profile-names">
+                  <span class="bold">Abilities:</span> <span class="italic">Swift Hunters</span>, <span
+                    class="bold">Unit:</span> <span class="italic">Cyberwolf</span>, <span class="bold">Weapon:</span>
+                  <span class="italic">Teeth and claws</span>
+                </p>
+
+              </li>
+            </ul>
+            <br>
+            <table cellspacing="-1">
+              <tr>
+                <th>Abilities</th>
+                <th>Description</th>
+                <th>Ref</th>
+              </tr>
+              <tr>
+                <td class="profile-name">Swift Hunters</td>
+                <td>This unit is eligible to declare a charge with even if it Advanced this turn. In addition, each time
+                  this unit makes a pile-in move or consolidation move, models in this unit can move an additional 1".
+                </td>
+                <td>
+                </td>
+              </tr>
+            </table>
+            <table cellspacing="-1">
+              <tr>
+                <th>Unit</th>
+                <th>M</th>
+                <th>WS</th>
+                <th>BS</th>
+                <th>S</th>
+                <th>T</th>
+                <th>W</th>
+                <th>A</th>
+                <th>Ld</th>
+                <th>Save</th>
+                <th>Ref</th>
+              </tr>
+              <tr>
+                <td class="profile-name">Cyberwolf</td>
+                <td>10"</td>
+                <td>3+</td>
+                <td>-</td>
+                <td>4</td>
+                <td>4</td>
+                <td>2</td>
+                <td>3</td>
+                <td>6</td>
+                <td>4+</td>
+                <td>
+                </td>
+              </tr>
+            </table>
+            <table cellspacing="-1">
+              <tr>
+                <th>Weapon</th>
+                <th>Range</th>
+                <th>Type</th>
+                <th>S</th>
+                <th>AP</th>
+                <th>D</th>
+                <th>Abilities</th>
+                <th>Ref</th>
+              </tr>
+              <tr>
+                <td class="profile-name">Teeth and claws</td>
+                <td>Melee</td>
+                <td>Melee</td>
+                <td>User</td>
+                <td>-1</td>
+                <td>1</td>
+                <td>-</td>
+                <td>
+                </td>
+              </tr>
+            </table>
+
+          </li>
+        </ul>
+      </li>
+      
 
     </ul>
 
